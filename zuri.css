@@ -14,6 +14,7 @@ body{
 }
 a{
   text-decoration: none;
+  color: white;
 }
 .top{
   background-image: url(./image/zuri.team/hero-bg.svg);
@@ -63,6 +64,9 @@ span{
   color: #E7332B;
   outline: none;
   border: 1px solid #E7332B;
+}
+.top .p_button .p2_button a{
+  color: #E7332B;
 }
 .top .p_button .p2_button:hover{
   background-color: #E7332B;
