@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif, Arial,
+    Helvetica;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 1300px;
+  width: 100%;
+  text-align: center;
+  color: #514949;
+  ;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.fixed_head{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px 0;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+.header .nav .home{
+  border-bottom: 3px solid #E7332B; 
+  /* background-color: black; */
+}
+.header .nav .hire{
+  background-color: #E7332B;
+  color: white;
+  padding: 10px 20px;
+}
+.vett{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 150px;
+  align-items: center;
+}
+.vett_text{
+  max-width: 600px;
+  margin: 0 auto;
+}
+.vett .vett_img .hero_img{
+  width: 300px;
+}
+.vett .vett_img .line_img{
+  width: 30px;
+}
