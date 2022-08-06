@@ -22,6 +22,7 @@ a {
   position: fixed;
   top: 0;
   width: 100%;
+  background-color: white;
 }
 .header{
   display: flex;
@@ -31,29 +32,260 @@ a {
 .nav{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  width: 450px;
+}
+.nav p:hover{
+  background-color: rgb(223, 231, 247);
 }
 .header .nav .home{
   border-bottom: 3px solid #E7332B; 
-  /* background-color: black; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.header .nav p{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding: 20px 7px;
 }
 .header .nav .hire{
   background-color: #E7332B;
+  border-bottom-right-radius: 20px solid #E7332B;
   color: white;
   padding: 10px 20px;
 }
 .vett{
   display: flex;
   justify-content: space-between;
-  margin-top: 150px;
+  margin: 150px 50px 30px;
   align-items: center;
+  text-align: left;
 }
 .vett_text{
-  max-width: 600px;
+  max-width: 1000px;
+  width: 100%;
+  /* background-color: aqua;   */
+}
+.vett_text h1{
+    color: black;
+font-size: 40px;
+}
+.vett_text #intro{
+  max-width: 400px;
+  width: 100%;
+  margin-top: 40px;
+  line-height: 25px;
+  font-size: 18px;
+  text-align: justify;
+}
+.vett .vett_button{
+  align-items: center;
   margin: 0 auto;
+  text-align: cebter;
 }
-.vett .vett_img .hero_img{
+span{
+  color: #E7332B;
+}
+.vett_text h1::after{
+  content: url(./image/talent.zuri.team/thick-wave.svg);
+  position: absolute;
+  top: 255px;
+  left: 450px;
+  width: 20px;
+
+}
+.button{
+  display: flex;
+  justify-content: space-between;
+  max-width: 400px;
+  width: 100%;
+  align-items: center;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+#intro{
+  max-width: 100%;
+  text-align: center;
+}
+.talent{
+  background-color: #E7332B;
+    padding: 10px 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+.pool{
+  background-color: #514949;
+    padding: 10px 20px;
+        border: 1px solid black;
+}
+
+.button a{
+  color: white;
+  padding: 10px 30px;
+}
+.vett .vett_img::after{
+  content: url(./image/talent.zuri.team/line1.svg);
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: black;
+}
+.bg_img{
+  background-image: url(./image/talent.zuri.team/bgsection2.063bd869082548bafa74.png);
+  max-width: 1300px;
+  display: flex;
+  align-items: center;
+}
+.world{
+  text-align: left;
+  margin: 80px 50px 50px;
+  line-height: 40px;
+}
+.country{
+  display: flex;
+  align-items: center;
+  width: 400px;
+  background-color: ;
+  justify-content: space-between;
+}
+.country img{
+  background-color: white;
+  border-radius: 15px;
+  padding: 10px;
+  width: 70px;
+  height: 70px;
+}
+.world h1{
+  max-width: 450px;
+  width: 100%;
+}
+.bg_img .connect{
+  margin: 80px 50px 50px 200px;
+}
+.skills_intro{
+  margin: 80px 50px 50px;
+}
+.skills_intro h1{
+    width: 300px;
+    text-align: left;
+    margin-bottom: 60px;
+}
+.skills{
+  display: flex;
+  justify-content: space-between;
+}
+.skills p{
+  padding: 10px;
+  background-color: white;
+  box-shadow: 1px 8px 15px;
+}
+.shills p:hover{
+    transition-property:;
+}
+.bg_hire_talent{
+  background: rgb(255, 248, 229);
+  height: 1000px;
+  padding: 50px 50px 20px;
+}
+.bg_hire_talent
+h1{
+  /* margin-top: 100px; */
+  padding-top: 100px;
+  
+}
+.box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+    /* margin: 0 auto; */
+/* grid-template-areas: 
+  'a a b b c c'
+  'd d e e '
+  ; */
+  gap: 15px;
+  /* width: 400px;
+  height: 600px; */
+}
+.box img{
+  width: 60px;
+}
+.box p{
+  width:60%;
+  text-align: center;
+}
+.box .box1{
+background-color: white;
+  width: 400px;
+    height: 200px;
+    padding: 10px auto;
+    text-align: center;
+
+/* grid-area: a; */
+}
+.box .box2{
+background-color: white;
+  width: 400px;
+    height:200px;
+/* grid-area: b; */
+}
+.box .box3{
+background-color: white;
+  width: 400px;
+    height: 200px;
+/* grid-area: c; */
+}
+.box .box4{
+background-color: white;
   width: 300px;
+    height: 150px;
+/* grid-area: d; */
 }
-.vett .vett_img .line_img{
-  width: 30px;
+.box .box5{
+background-color: white;
+  width: 300px;
+    height: 150px;
+/* grid-area: e; */
+}
+footer{
+  background-color: black;
+  padding:50px 50px 20px;
+}
+.foot_top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 auto;
+  margin-bottom: 40px;
+}
+.foot_bottom{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  color: white;
+}
+
+
+    @media screen and (max-width: 1050px) {
+      .vett {
+        display: block;
+        text-align: center;
+        max-width: 100%;
+      }
+  
+      .vett_text h1{
+        text-align: center;
+      }
+  
+      .talent {
+        align-items: center;
+      }
+  
+.vett_text h1::after {
+  content: url(./image/talent.zuri.team/thick-wave.svg);
+  position: absolute;
+  top: 165px;
+  left: 670px;
+  width: 20px;
+}
 }
