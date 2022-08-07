@@ -12,7 +12,6 @@ body {
   width: 100%;
   text-align: center;
   color: #514949;
-  ;
 }
 a {
   text-decoration: none;
@@ -146,7 +145,6 @@ span{
   display: flex;
   align-items: center;
   width: 400px;
-  background-color: ;
   justify-content: space-between;
 }
 .country img{
@@ -178,11 +176,11 @@ span{
 .skills p{
   padding: 10px;
   background-color: white;
-  box-shadow: 1px 8px 15px;
+  box-shadow: 0 8px 30px hsla(0,0%,48%,.16);
 }
-.shills p:hover{
+/* .shills p:hover{
     transition-property:;
-}
+} */
 .bg_hire_talent{
   background: rgb(255, 248, 229);
   height: 1000px;
