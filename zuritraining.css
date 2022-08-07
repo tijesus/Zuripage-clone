@@ -24,28 +24,109 @@ a {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: white;
+  background-color: rgb(255, 253, 245);
 }
 .header{
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 20px 40px;
+  background-color: rgb(255, 253, 245);
 }
 .nav{
 display: flex;
 justify-content: space-between;
 align-items: center;
-width: 40%;
+width: 35%;
+}
+.enroll{
+  display: inline-flex;
+  align-items: center;
+  /* margin-left: -100px; */
 }
 .thumbs{
-  background-color: #E7332B;;
+  background-color: #E7332B;
+  border-radius: 100%;
+  height: 80px;
+  width: 80px;
+  padding-top: 18px;
+
+}
+.thumbs img{
+  width: 40px;
+  /* background-color: #E7332B; */
+}
+.enroll p{
+  background-color: #E7332B;
+  color: white;
+  padding: 10px 30px 10px 30px;
+  margin-left: -21px;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  font-size: 18px;
+}
+.section1{
+  display: flex;
+  align-items: center;
+  margin: 150px 40px 100px;
+  width: 95%;
+}
+.section1_p1{
+  font-size: 18px;
+  color: #E7332B;
+  width: 100%;
+  text-align: center;
+}
+.section1_p2{
+  font-size: 19px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+.enroll_now{
+  background-color: #E7332B;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 100px;
+  width: 120px;
+  margin: 50px auto;
+  border-radius: 20px;
+  display: flex;
+}
+/* .enroll_now::after{
+  content: url(./image/training.zuri.team/section3wire.svg);
+  flex-direction: column;
+} */
+.section1 h2{
+font-size: 50px;
+margin-top: 15px;
+margin-bottom: 30px;
+/* text-align: center; */
+}
+.section1 h2::after{
+content: url(./image/training.zuri.team/line.svg);
+max-width: 10px;
+}
+.section1_image1{
+  width: 350px;
+}
+.section1_img{
+  margin-top: -60px;
+  margin-left: 120px;
+}
+.section1_image2{
+  width: 300px;
 }
 
 
-@media screen and (max-width: 900px) {
-  .top {
-    background-size: none;
-    height: auto;
+@media screen and (max-width: 1130px) {
+  .section1 {
+    flex-direction: column;
   }
+  .section1_image1{
+    width: 700px;  
   }
+  .section1_image2{
+    display: none;  
+  }
+}
