@@ -139,6 +139,7 @@ hr{
 .hr{
   margin-top: -50px;
 }
+/********* section2 ********/
 .section2{
   display: flex;
   align-items: center;
@@ -199,31 +200,8 @@ hr{
 
 
 
-footer{
-  margin: 50px 40px;
-}
-.foot_top{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.foot_bottom{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.foot_bottom p{
-  margin-top: 20px;
-}
-.foot_flex{
-  display: flex;
-  justify-content: space-between;
-  width: 20%;
-  margin-top: 20px;
-  }
-  .last_line{
-    display: none;
-  }
+
+  /********** section 4 **********/
   .section4{
     display: flex;
     justify-content: space-between;
@@ -503,6 +481,7 @@ footer{
     padding-right: 10px;
     padding-bottom: 100px;
   }
+  /********** section 5 ***********/
   .section5{
     display: flex;
     align-items: center;
@@ -510,7 +489,7 @@ footer{
     text-align: left;
     margin: 20px 40px;
     padding-top: 20px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
   }
   .section5 button{
     color: #E7332B;
@@ -531,10 +510,12 @@ footer{
     content: url(./image/training.zuri.team/section5wire.svg);
     width: 20px;
   }
-  .section5 .p1::after svg{ 
-    /* content: url(./image/training.zuri.team/section5wire.svg); */
-    width: 20px;
+  .section5 .overall_act #dot_line{
+    display: block;
+    margin-top: 40px;
+    width: 150px;
   }
+    
   .section5 .p2{
     margin-top: 40px;
     margin-bottom: 10px;
@@ -563,8 +544,197 @@ footer{
   .sec5bigbg img{
     width: 550px;
   }
+    .section6 button{
+    color: white;
+    padding: 15px 40px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #E7332B;
+    border: none;
+    font-size: 20px;
+  }
+  /******* section 6 *****/
+  .section6{
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 100px 40px;
+  }
+  .section6 p{
+    color: #E7332B;
+    text-align: left;
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+  .section6 h2{
+    font-size: 40px;
+    text-align: left;
+    width: 600px;
+    margin-bottom: 80px;
+  }
+    .section6 .box {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  .section6 .box1{
+    background-color: white;
+      width: 380px;
+      padding: 50px;
+      border-radius: 30px;
+      text-align: left;
+  }
+  .section6 .box1 h2{
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  .section6 .box1 p{
+  font-size: 18px;  
+  color: black;
+  margin-top: 40px;
+}
+
+.section6 .box .box2{
+  background-color: white;
+    width: 380px;
+    padding: 50px;
+    border-radius: 30px;
+    text-align: left;
+}
+    .section6 .box2 h2 {
+      font-size: 20px;
+      margin-bottom: 40px;
+    }
+  
+    .section6 .box2 p {
+      font-size: 18px;
+      color: black;
+      margin-top: 40px;
+    }
+
+    .section6 .box3 {
+      background-color: white;
+      width: 380px;
+      padding: 50px;
+      border-radius: 30px;
+      text-align: left;
+    }
+  
+    .section6 .box3 h2 {
+      font-size: 20px;
+      margin-bottom: 40px;
+    }
+  
+    .section6 .box3 p {
+      font-size: 18px;
+      color: black;
+      margin-top: 40px;
+    }
+    .section6 .box3 img {
+      font-size:px;
+      background-color: #E7332B;
+    }
+    .section6 .box4 {
+      background-color: white;
+      width: 380px;
+      padding: 50px;
+      border-radius: 30px;
+      text-align: left;
+    }
+  
+    .section6 .box4 h2 {
+      font-size: 20px;
+      margin-bottom: 40px;
+    }
+  
+    .section6 .box4 p {
+      font-size: 18px;
+      color: black;
+      margin-top: 40px;
+    }
+    .section6 .box5 {
+      background-color: white;
+      width: 380px;
+      padding: 50px;
+      border-radius: 30px;
+      text-align: left;
+      }
+      
+      .section6 .box5 h2 {
+        font-size: 20px;
+        margin-bottom: 40px;
+      }
+      
+      .section6 .box5 p {
+        font-size: 18px;
+        color: black;
+        margin-top: 40px;
+      }
+    .section6 .box6 {
+      background-color: white;
+      width: 380px;
+      padding: 50px;
+      border-radius: 30px;
+      text-align: left;
+      }
+      
+      .section6 .box6 h2 {
+        font-size: 20px;
+        margin-bottom: 40px;
+      }
+      
+    .section6 .box6 p {
+      font-size: 18px;
+      color: black;
+      margin-top: 40px;
+    }
+    .sec4bg button{
+    color: white;
+    padding: 15px 40px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #E7332B;
+    border: none;
+    font-size: 20px;
+  }  
 
 
+
+
+
+
+/************ footer ******/
+footer {
+  margin: 50px 40px;
+}
+
+.foot_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foot_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.foot_bottom p {
+  margin-top: 20px;
+}
+
+.foot_flex {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+  margin-top: 20px;
+}
+
+.last_line {
+  display: none;
+}
 
 @media screen and (max-width: 1130px) {
   .section1 {
