@@ -19,7 +19,7 @@ a{
   background-image: url(./image/zuri.team/hero-bg.svg);
   height: 700px;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
 }
 .top_text{
   max-width: 600px;
