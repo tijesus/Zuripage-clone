@@ -735,32 +735,35 @@ hr{
     }
     .section7 .img1{
       position: absolute;
-      left: 80px;
+      left: 100px;
+      top: -120px;
       width: 100px;
+
     }
     .section7 .img2{
       position: absolute;
       width: 150px;
       right: 100px;
-      top: 25px;
+      top: -135px;
     }
     #relative .img3{
       position: absolute;
       width: 130px;
-      right: 1110px;
-      top: 5800px;
+      right: 1210px;
+      top: 6150px;
     }
     #relative .img4{
       position: absolute;
       width: 150px;
       right: 70px;
-      top: 6225px;
+      top: 6590px;
+      z-index: -1px;
     }
     #relative .img5{
       position: absolute;
       width: 150px;
-      right: 1000px;
-      top: 6350px;
+      right: 1100px;
+      top: 6750px;
     }
     .section7 .box{
       /* background: linear-gradient(180deg, rgba(255, 244, 240, 0), #fff4f0 17.19%, #fff4f0 84.37%, rgba(255, 244, 240, 0)) !important; */
