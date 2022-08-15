@@ -1,97 +1,97 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif, Arial;
 }
-body{
+body {
   margin: 0 auto;
   max-width: 1300px;
   width: 100%;
   text-align: center;
   color: #514949;
 }
-a{
+a {
   text-decoration: none;
   /* color: white; */
 }
-.top{
+.top {
   background-image: url(./image/zuri.team/hero-bg.svg);
   height: 700px;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.top_text{
+.top_text {
   max-width: 600px;
   margin: 0 auto;
 }
-.top h2{
+.top h2 {
   padding-top: 100px;
 }
-.top p{
+.top p {
   font-size: 14.5px;
 }
-#dot{
+#dot {
   font-family: monospace;
   margin: -8px;
 }
-span{
-  color: #E7332B;
+span {
+  color: #e7332b;
 }
-.top .p_button{
-  display: flex;  
-  justify-content:center;
+.top .p_button {
+  display: flex;
+  justify-content: center;
 }
-.top .p1_button{
-  margin-right:  30px;
+.top .p1_button {
+  margin-right: 30px;
 }
-.top .p_button .p1_button{
-  background-color: #E7332B;
+.top .p_button .p1_button {
+  background-color: #e7332b;
   padding: 15px 35px;
   color: white;
   outline: none;
   border: none;
 }
-.top .p_button .p1_button a{
+.top .p_button .p1_button a {
   color: white;
 }
-.top .p_button .p1_button a:hover{
-  color: #E7332B;
+.top .p_button .p1_button a:hover {
+  color: #e7332b;
   background-color: white;
 }
 .top .p_button .p1_button:hover {
   background-color: white;
-  color: #E7332B;
-  border: 1px solid #E7332B;
+  color: #e7332b;
+  border: 1px solid #e7332b;
 }
 /* .top .p_button .p1_button:hover {
   background-color: white;
   color: #E7332B;
   border: 1px solid #E7332B;
 } */
-.top .p_button .p2_button{
+.top .p_button .p2_button {
   background-color: white;
   padding: 15px 35px;
-  color: #E7332B;
+  color: #e7332b;
   outline: none;
-  border: 1px solid #E7332B;
+  border: 1px solid #e7332b;
 }
-.top .p_button:hover .p2_button a{
-  color: #E7332B;
+.top .p_button:hover .p2_button a {
+  color: #e7332b;
 }
-.top .p_button .p2_button a:hover{
-  color: #fff
+.top .p_button .p2_button a:hover {
+  color: #fff;
 }
-.top .p_button .p2_button:hover{
-  background-color: #E7332B;
+.top .p_button .p2_button:hover {
+  background-color: #e7332b;
   color: white;
 }
 
-.team h5{
+.team h5 {
   margin-top: 150px;
-  color: #E7332B;
+  color: #e7332b;
 }
-.team p{
+.team p {
   font-size: 20px;
   line-height: 30px;
   max-width: 380px;
@@ -99,7 +99,7 @@ span{
 }
 #bg_dots {
   display: flex;
-  justify-content: space-between
+  justify-content: space-between;
 }
 
 #bg_dots img {
@@ -108,133 +108,133 @@ span{
   margin-top: -50px;
   margin-bottom: -300px;
 }
-.box{
+.box {
   display: flex;
   justify-content: space-between;
   text-align: left;
   margin: 0 30px;
   max-width: 1400px;
 }
-.box1{
+.box1 {
   background-color: #fffafa;
   padding: 100px 30px 80px;
   max-width: 350px;
   margin-right: 30px;
 }
-.box1 h5{
+.box1 h5 {
   background-color: #fff;
   padding: 45px 20px 45px;
   display: inline;
   font-size: 16px;
 }
-.box1 h5 span{
+.box1 h5 span {
   background-color: #fff;
   font-size: 30px;
   margin-left: 200px;
 }
 
-.box1 .text{
+.box1 .text {
   font-size: 15px;
   line-height: 25px;
   margin-top: 60px;
 }
-.box1 .link{
-  color: #E7332B;
-    text-decoration: none;
+.box1 .link {
+  color: #e7332b;
+  text-decoration: none;
 }
-.box1 a .link{
+.box1 a .link {
   text-decoration: none;
 }
 
-.box2{
+.box2 {
   background-color: #fffafa;
   padding: 100px 30px 80px;
   max-width: 350px;
   /* margin-left: 30px; */
 }
-.box2 h5{
+.box2 h5 {
   background-color: #fff;
   padding: 45px 20px 45px;
   display: inline;
   font-size: 16px;
 }
-.box2 h5 span{
+.box2 h5 span {
   background-color: #fff;
   font-size: 30px;
   margin-left: 200px;
 }
 
-.box2 .text{
+.box2 .text {
   font-size: 15px;
   line-height: 25px;
   margin-top: 60px;
 }
-.box2 .link{
-  color: #E7332B;
-    text-decoration: none;
+.box2 .link {
+  color: #e7332b;
+  text-decoration: none;
 }
-.box2 a .link{
+.box2 a .link {
   text-decoration: none;
 }
 
-.box3{
+.box3 {
   background-color: #fffafa;
   padding: 100px 30px 80px;
   max-width: 350px;
   margin-left: 30px;
 }
-.box3 h5{
+.box3 h5 {
   background-color: #fff;
   padding: 45px 20px 45px;
   display: inline;
   font-size: 16px;
 }
-.box3 h5 span{
+.box3 h5 span {
   background-color: #fff;
   font-size: 30px;
   margin-left: 200px;
 }
 
-.box3 .text{
+.box3 .text {
   font-size: 15px;
   line-height: 25px;
   margin-top: 60px;
 }
-.box3 .link{
-  color: #E7332B;
-    text-decoration: none;
-}
-.box3 a .link{
+.box3 .link {
+  color: #e7332b;
   text-decoration: none;
 }
-.flex_foot{
+.box3 a .link {
+  text-decoration: none;
+}
+.flex_foot {
   display: flex;
   justify-content: space-between;
   margin: 205px 30px 80px;
   text-align: left;
 }
-.flex_foot h3{
+.flex_foot h3 {
   font-size: 15px;
 }
-.flex_foot p{
+.flex_foot p {
   font-size: 14px;
 }
-.flex_foot a{
-  color: #E7332B;
+.flex_foot a {
+  color: #e7332b;
 }
-footer img{
+footer img {
   width: 15px;
 }
-footer .copy{
+footer .copy {
   margin-top: 30px;
   margin-bottom: 80px;
 }
 
 @media screen and (max-width: 900px) {
   .top {
-      background-size: none;
-      height: auto;
-    }
+    background-size: none;
+    height: auto;
+  }
   .box {
     display: block;
   }
@@ -265,8 +265,8 @@ footer .copy{
 @media screen and (max-width: 767px) {
   .top_text {
     padding: 20px;
-    }
-.top .p_button {
+  }
+  .top .p_button {
     flex-direction: column;
     margin: 0 auto;
     width: 250px;
@@ -283,32 +283,30 @@ footer .copy{
     margin-right: 0px;
     margin-bottom: 20px;
   }
-  .flex_foot{
+  .flex_foot {
     text-align: center;
     display: block;
   }
-    .flex_foot .link {
-  margin-bottom: 30px;
-  margin-top: 30px;
-  }  
+  .flex_foot .link {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
   .flex_foot .contacts {
     margin-bottom: 30px;
   }
   .flex_foot h2 {
-  font-size: 30px; 
-  margin-bottom: 8px; 
+    font-size: 30px;
+    margin-bottom: 8px;
   }
   .flex_foot h3 {
-  font-size: 23px; 
-  margin-bottom: 8px; 
+    font-size: 23px;
+    margin-bottom: 8px;
   }
-    
+
   footer img {
     margin-bottom: 30px;
-    }
-
+  }
 }
-
 
 /* @media screen and (max-width: 510px) {
   .top_text{
