@@ -70,9 +70,9 @@ a {
 font-size: 40px;
 }
 .vett_text #intro{
-  max-width: 400px;
+  max-width: 500px;
   width: 100%;
-  margin-top: 40px;
+  margin: 40px auto;
   line-height: 25px;
   font-size: 18px;
   text-align: justify;
@@ -86,7 +86,8 @@ span{
   color: #E7332B;
 }
 .vett_text h1::after{
-  content: url(./image/talent.zuri.team/thick-wave.svg);
+  content: "";
+  background-image: url(./image/talent.zuri.team/thick-wave.svg);
   position: absolute;
   top: 255px;
   left: 450px;
@@ -101,7 +102,7 @@ span{
   align-items: center;
   color: white;
   text-align: center;
-  margin-top: 50px;
+  margin: 50px auto;
 }
 #intro{
   max-width: 100%;
@@ -172,15 +173,37 @@ span{
 .skills{
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
+}
+.skills .p1:hover{
+  transition: 1s;
+  transform: translateY(-16px);
+}
+.skills .p2:hover{
+  transition: 1s;
+  transform: translateY(-16px);
+}
+.skills .p3:hover{
+  transition: 1s;
+  transform: translateY(-16px);
+}
+.skills .p4:hover{
+  transition: 1s;
+  transform: translateY(-16px);
+}
+.skills #p1:hover {
+  transition: 1s;
+  transform: translateY(-16px);
+}
+.skills #p2:hover {
+  transition: 1s;
+  transform: translateY(-16px);
 }
 .skills p{
   padding: 10px;
   background-color: white;
   box-shadow: 0 8px 30px hsla(0,0%,48%,.16);
 }
-/* .shills p:hover{
-    transition-property:;
-} */
 .bg_hire_talent{
   background: rgb(255, 248, 229);
   height: 1000px;
@@ -195,27 +218,32 @@ h1{
 .box{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-    /* margin: 0 auto; */
+  justify-content: left;
+  margin: 40px auto;
+  background: rgb(255, 248, 229);
 /* grid-template-areas: 
   'a a b b c c'
   'd d e e '
   ; */
-  gap: 15px;
+  gap: 45px;
   /* width: 400px;
   height: 600px; */
 }
 .box img{
   width: 60px;
+  margin-top: 20px;
 }
 .box p{
-  width:60%;
+  width: 80%;
+  font-size: 17px;
+  margin: 39px auto;
+  margin-bottom: 60px;
   text-align: center;
 }
 .box .box1{
 background-color: white;
-  width: 400px;
-    height: 200px;
+  width: 370px;
+    /* height: 200px; */
     padding: 10px auto;
     text-align: center;
 
@@ -223,31 +251,34 @@ background-color: white;
 }
 .box .box2{
 background-color: white;
-  width: 400px;
-    height:200px;
+  width: 370px;
+    /* height:200px; */
 /* grid-area: b; */
 }
 .box .box3{
 background-color: white;
-  width: 400px;
-    height: 200px;
+  width: 370px;
+    /* height: 200px; */
 /* grid-area: c; */
 }
 .box .box4{
 background-color: white;
-  width: 300px;
-    height: 150px;
+  width: 370px;
+    /* height: 150px; */
 /* grid-area: d; */
 }
 .box .box5{
 background-color: white;
-  width: 300px;
-    height: 150px;
+  width: 370px;
+    /* height: 150px; */
 /* grid-area: e; */
 }
 footer{
   background-color: black;
   padding:50px 50px 20px;
+  position: absolute;
+  bottom: -300%;
+  width: 100%;
 }
 .foot_top{
   display: flex;
@@ -302,4 +333,54 @@ footer{
   .skills_intro .skills{
     flex-wrap: wrap;
   }
+}
+@media screen and (max-width: 800px) {
+    .vett_text h1::after {
+    content: url(./image/talent.zuri.team/thick-wave.svg);
+    position: absolute;
+    top: 170px;
+    left: 530px;
+    width: 20px;
+}
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 40px auto;
+  background: rgb(255, 248, 229);
+  width: 100%;
+  gap: 45px;
+}
+.box .box1 {
+  background-color: white;
+  width: 90%;
+  /* grid-area: a; */
+}
+
+.box .box2 {
+  background-color: white;
+  width: 90%;
+
+}
+
+.box .box3 {
+  background-color: white;
+  width: 90%;
+
+}
+
+.box .box4 {
+  background-color: white;
+  width: 90%;
+
+}
+
+.box .box5 {
+  background-color: white;
+  width: 90%;
+
+}
+footer {
+  bottom: -490%;
+}
 }
